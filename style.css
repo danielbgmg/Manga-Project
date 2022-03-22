@@ -1,0 +1,185 @@
+/* -------- FONTES -------- */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* -------- FONTES -------- */
+
+/* -------- RESET -------- */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+:root{
+    font-size: 62.5%;
+}
+/* -------- RESET -------- */
+
+/* -------- BODY -------- */
+body {
+    background-color: rgb(75, 75, 75);
+}
+/* -------- BODY -------- */
+
+/* -------- MAIN -------- */
+.layout {
+    max-width: 842px;
+    margin: 30px auto;
+}
+
+.layout h2 {
+    font: normal 2.2rem/3.3rem 'Poppins';
+    color: white;
+}
+/* -------- MAIN -------- */
+
+/* -------- HEADER -------- */
+.layout .header h1 {
+    font: normal 4.8rem/7rem 'Poppins';
+    color: white;
+}
+
+.layout .header .nav .navLink{
+    font: normal 1.8rem/2.7rem 'Poppins';
+    padding: 5px 10px;
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+.layout .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.layout .header .nav .navUl {
+    display: flex;
+    gap: 100px;
+    margin-top: 29px;
+    justify-content: center;
+}
+/* -------- HEADER -------- */
+
+/* -------- CONTAINER -------- */
+.layout .container {
+    display: flex;
+    gap: 15px;
+}
+
+.layout .card {
+    width: 155px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout .card .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.layout .card .titulo {
+    width: 155px;
+    height: 38.4px;
+    font-family: 'Poppins';
+    font-size: 1.3rem;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.layout .card .cap {
+    font-family: 'Poppins';
+    color: white;
+    font-size: 1.2rem;
+    padding: 3px 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+/* -------- CONTAINER -------- */
+
+/* -------- HIGHLIGHTED -------- */
+.layout .container .highLighted .destaque {
+    width: 302px;
+    height: 48px;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.layout .container .highLighted .destaqueImg {
+    width: 302px;
+    height: 353px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    background-color: rgb(43, 43, 43);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+/* -------- HIGHLIGHTED -------- */
+
+/* -------- lASTSEEN -------- */
+.layout .container .lastSeen .ultimoVisto{
+    width: 504px;
+    height: 48px;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.layout .container .lastSeen .vistoPorUltimo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+/* -------- lASTSEEN -------- */
+
+/* -------- ALLMANGAS -------- */
+.layout .allMangas {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid white;
+}
+
+.layout .allMangas .allMangas__lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.layout .allMangas .allMangas__titulo{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(43, 43, 43);
+    border-radius: 10px;
+}
+
+/* -------- ALLMANGAS -------- */
